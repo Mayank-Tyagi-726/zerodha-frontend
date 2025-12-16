@@ -89,7 +89,8 @@ function Signup() {
           <form onSubmit={handleSubmit}>
             <div className="mb-3">
               <label htmlFor="name" className="form-label">
-                Full Name
+
+                Full Name(demoUser)
               </label>
               <input
                 type="text"
@@ -104,7 +105,7 @@ function Signup() {
             </div>
             <div className="mb-3">
               <label htmlFor="email" className="form-label">
-                Email address
+                Email address (demouser@gmail.com)
               </label>
               <input
                 type="email"
@@ -119,7 +120,7 @@ function Signup() {
             </div>
             <div className="mb-3">
               <label htmlFor="password" className="form-label">
-                Password
+                Password(Demo@123)
               </label>
               <input
                 type="password"

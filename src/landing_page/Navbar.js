@@ -48,7 +48,7 @@ function Navbar() {
               ) : (
                 <>
                   <li className="nav-item">
-                    <Link className="nav-link active" to="https://zerodha-dashboard-sepia.vercel.app/">
+                    <Link className="nav-link active" to="https://zerodha-frontend-five-eta.vercel.app/signup">
                       signup/login
                     </Link>
                   </li>

@@ -25,7 +25,7 @@ const Login = () => {
 
       if (response.ok) {
         login();
-        navigate('/dashboard');
+        navigate('https://zerodha-dashboard-sepia.vercel.app/');
       } else {
         setError(data.message || 'Login failed.');
       }
@@ -35,10 +35,10 @@ const Login = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container" style={{marginTop:"100px"}}>
       <div className="row justify-content-center">
         <div className="col-md-6">
-          <h2 className="text-center mb-4">Login</h2>
+          <h2 className="text-center mb-4" >Login</h2>
           {error && <div className="alert alert-danger">{error}</div>}
           <form onSubmit={handleSubmit}>
             <div className="mb-3">

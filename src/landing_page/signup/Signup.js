@@ -53,7 +53,7 @@ function Signup() {
     setGeneralError("");
     if (validateForm()) {
       try {
-        const response = await fetch("http://localhost:3002/signup", {
+        const response = await fetch("https://zerodha-backend-peach.vercel.app/signup", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -66,7 +66,7 @@ function Signup() {
         if (response.ok) {
           // Successful signup
           login();
-          navigate("/dashboard"); // Assuming there's a dashboard route
+          navigate("https://zerodha-dashboard-sepia.vercel.app/"); // Assuming there's a dashboard route
         } else {
           // Handle errors
           if (data.message && data.message.includes("duplicate")) {
@@ -82,9 +82,9 @@ function Signup() {
   };
 
   return (
-    <div className="container mt-5">
+    <div className="container mt-5" >
       <div className="row justify-content-center">
-        <div className="col-md-6">
+        <div className="col-md-6" style={{marginTop:"100px"}}>
           <h2 className="text-center mb-4">Sign Up for Zerodha</h2>
           <form onSubmit={handleSubmit}>
             <div className="mb-3">

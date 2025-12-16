@@ -13,7 +13,7 @@ const Login = () => {
     e.preventDefault();
     setError('');
     try {
-      const response = await fetch('http://localhost:3002/login', {
+      const response = await fetch('https://zerodha-backend-peach.vercel.app/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -44,8 +44,7 @@ The project focuses on **clean UI design, responsiveness, and real-world dashboa
 
 ## 📸 Screenshots
 
-_Add screenshots of the landing page and dashboard UI here._
-
+![home](screenshot/home.png)
 ---
 
 ## 🚀 Future Enhancements

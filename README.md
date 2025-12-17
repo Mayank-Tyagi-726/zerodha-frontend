@@ -44,7 +44,7 @@ The project focuses on **clean UI design, responsiveness, and real-world dashboa
 
 ## 📸 Screenshots
 
-![home](screenshot/home.png)
+![home](screenshots/hero.png)
 ---
 
 ## 🚀 Future Enhancements

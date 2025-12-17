@@ -43,8 +43,36 @@ The project focuses on **clean UI design, responsiveness, and real-world dashboa
 ---
 
 ## 📸 Screenshots
-
+1.hero
 ![home](screenshots/hero.png)
+2.Home1
+![home1](screenshots/home1.png)
+3.Home2
+![home2](screenshots/home2.png)
+4.About
+![About](screenshots/home2.png)
+5.Product
+![products](screenshots/home2.png)
+6.Pricing
+![pricing](screenshots/pricing.png)
+7.Support
+![support](screenshots/support.png)
+8.signup
+![signup](screenshots/signup.png)
+9.Dashboard
+![dashboard](screenshots/dashboard.png)
+10.Charts
+![charts](screenshots/charts.png)
+11.Holdings
+![holdings](screenshots/holdings.png)
+12.Positions
+![positions](screenshots/positions.png)
+13.funds
+![funds](screenshots/funds.png)
+14.apps
+![apps](screenshots/apps.png)
+15.Footer
+![footer](screenshots/footer.png)
 ---
 
 ## 🚀 Future Enhancements
